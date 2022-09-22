@@ -14,3 +14,4 @@ In this part, what we need to do first is to set the color_integration_time in o
 # 4.4 Custom Real-time Visualizer
 In this part, I design a system in which a "o" can move by following my gesture. At first, RP2040 will read the value of brightness, if the brightness is too high, the "o" will change into "X", and stop moving. If the brightness is in the proper range, the "o" will follow my gesture. For example, I move my hand rightward, the "o" will move in the same way. And it's shown in the following picture.
 ![image](4.4.gif)
+Moreover, if the brightness is smaller than one specific value, the loop will break and then the program will finish.
